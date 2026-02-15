@@ -1,0 +1,26 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/playfair-display';
+@import '@fontsource-variable/montserrat';
+
+@theme {
+	--color-primary: #2D4032;
+	--color-offwhite: #F9F9F7;
+	--color-gold: #E5D3B3;
+	--color-footer: #1a2520;
+	--font-heading: 'Playfair Display Variable', serif;
+	--font-body: 'Montserrat Variable', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-family: var(--font-body);
+	color: var(--color-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-heading);
+}
+
+section {
+	scroll-margin-top: 5rem;
+}
