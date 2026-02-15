@@ -26,13 +26,13 @@
 <!-- Featured project -->
 <section class="bg-offwhite pb-24">
 	<div class="mx-auto max-w-7xl px-6">
-		<div class="overflow-hidden rounded-xl bg-white shadow-sm">
+		<a href="/portfolio/{projects[0].slug}" class="group block overflow-hidden rounded-xl bg-white shadow-sm transition-shadow duration-500 hover:shadow-md">
 			<div class="grid md:grid-cols-2">
-				<div class="h-72 md:h-full">
+				<div class="h-72 md:h-full overflow-hidden">
 					<img
 						src={projects[0].image}
 						alt={projects[0].title}
-						class="h-full w-full object-cover"
+						class="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
 						loading="eager"
 					/>
 				</div>
@@ -45,7 +45,7 @@
 					<p class="mt-4 leading-relaxed text-primary/60">{projects[0].description}</p>
 				</div>
 			</div>
-		</div>
+		</a>
 	</div>
 </section>
 
@@ -66,6 +66,7 @@
 					image={project.image}
 					description={project.description}
 					category={project.category}
+					slug={project.slug}
 				/>
 			{/each}
 		</div>

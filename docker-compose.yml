@@ -1,0 +1,43 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - PUBLIC_KONTENT_ENVIRONMENT_ID=${PUBLIC_KONTENT_ENVIRONMENT_ID:-}
+
+    expose:
+      - "3000"
+
+    # Traefik labels for Dokploy
+    labels:
+      - "traefik.enable=true"
+
+      # HTTP Router
+      - "traefik.http.routers.vdvtuinen-app.rule=Host(`vdvtuinen.alexchorak.com`)"
+      - "traefik.http.routers.vdvtuinen-app.entrypoints=web"
+      - "traefik.http.routers.vdvtuinen-app.middlewares=vdvtuinen-https-redirect"
+
+      # HTTPS Router
+      - "traefik.http.routers.vdvtuinen-app-secure.rule=Host(`vdvtuinen.alexchorak.com`)"
+      - "traefik.http.routers.vdvtuinen-app-secure.entrypoints=websecure"
+      - "traefik.http.routers.vdvtuinen-app-secure.tls=true"
+      - "traefik.http.routers.vdvtuinen-app-secure.tls.certresolver=letsencrypt"
+
+      # Service
+      - "traefik.http.services.vdvtuinen-app.loadbalancer.server.port=3000"
+
+      # Middleware for HTTPS redirect
+      - "traefik.http.middlewares.vdvtuinen-https-redirect.redirectscheme.scheme=https"
+      - "traefik.http.middlewares.vdvtuinen-https-redirect.redirectscheme.permanent=true"
+
+    networks:
+      - dokploy-network
+
+networks:
+  dokploy-network:
+    external: true

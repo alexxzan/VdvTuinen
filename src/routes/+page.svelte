@@ -18,7 +18,7 @@
 </script>
 
 <SEOHead
-	title="VDV Tuinen - Groen met ziel, voor een tuin die spreekt"
+	title="VDV Tuinen - Uw droomtuin begint hier"
 	description="VDV Tuinen: uw specialist in tuinontwerp, tuinaanleg en tuinonderhoud in de regio Noord-Holland. Vakkundig, betrouwbaar en creatief."
 />
 <JsonLd />
@@ -99,7 +99,7 @@
 
 		<div class="mt-16 grid gap-6 md:grid-cols-3">
 			{#each projects.slice(0, 3) as project}
-				<ProjectCard title={project.title} image={project.image} description={project.description} category={project.category} />
+				<ProjectCard title={project.title} image={project.image} description={project.description} category={project.category} slug={project.slug} />
 			{/each}
 		</div>
 

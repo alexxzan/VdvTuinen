@@ -18,7 +18,7 @@
 		},
 		openingHours: 'Mo-Fr 07:00-18:00',
 		description:
-			'Groen met ziel, voor een tuin die spreekt. Professionele tuinverzorging en -aanleg in de regio Noord-Holland.'
+			'Uw droomtuin begint hier. Exclusief tuinontwerp en aanleg met oog voor detail en vakmanschap in de regio Noord-Holland.'
 	};
 </script>
 

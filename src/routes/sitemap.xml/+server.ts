@@ -1,10 +1,13 @@
+import { services, projects } from '$lib/data/content';
 import type { RequestHandler } from './$types';
 
 export const GET: RequestHandler = async () => {
 	const staticRoutes = [
 		{ path: '/', changefreq: 'weekly', priority: '1.0' },
 		{ path: '/diensten', changefreq: 'monthly', priority: '0.9' },
+		...services.map((s) => ({ path: `/diensten/${s.slug}`, changefreq: 'monthly', priority: '0.8' })),
 		{ path: '/portfolio', changefreq: 'monthly', priority: '0.8' },
+		...projects.map((p) => ({ path: `/portfolio/${p.slug}`, changefreq: 'monthly', priority: '0.7' })),
 		{ path: '/proces', changefreq: 'monthly', priority: '0.7' },
 		{ path: '/contact', changefreq: 'monthly', priority: '0.8' },
 		{ path: '/blog', changefreq: 'daily', priority: '0.8' }

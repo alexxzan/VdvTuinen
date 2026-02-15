@@ -27,6 +27,7 @@
 					description={service.description}
 					icon={service.icon}
 					image={service.image}
+					slug={service.slug}
 				/>
 			{/each}
 		</div>
