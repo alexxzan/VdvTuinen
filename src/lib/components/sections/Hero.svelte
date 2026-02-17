@@ -6,7 +6,7 @@
 <section class="relative flex min-h-screen items-center">
 	<img
 		src={heroContent.image}
-		alt="Prachtige tuin"
+		alt="Tuin met vijver en natuursteen"
 		class="absolute inset-0 h-full w-full object-cover"
 		loading="eager"
 	/>

@@ -9,7 +9,7 @@
 
 <SEOHead
 	title="Ons Proces - VDV Tuinen"
-	description="Van contact tot ontwerp: ontdek hoe VDV Tuinen in vier stappen uw droomtuin realiseert. Persoonlijk, vakkundig en transparant."
+	description="Van contact tot ontwerp: ontdek hoe VDV Tuinen in vier stappen uw tuin realiseert. Persoonlijk, vakkundig en transparant."
 />
 
 <section class="bg-offwhite pt-32 pb-24">

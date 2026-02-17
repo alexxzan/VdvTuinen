@@ -16,7 +16,7 @@
 				<span class="font-heading text-2xl font-bold text-offwhite">VDV Tuinen</span>
 			</a>
 			<p class="mt-4 text-sm leading-relaxed text-gold/80">
-				Uw droomtuin begint hier. Exclusief tuinontwerp en aanleg met oog voor detail en vakmanschap in de regio Noord-Holland.
+				Tuinontwerp, aanleg en onderhoud met oog voor detail en vakmanschap in de regio Noord-Holland.
 			</p>
 			<div class="mt-4 space-y-2 text-sm text-gold/80">
 				<div class="flex items-center gap-2">

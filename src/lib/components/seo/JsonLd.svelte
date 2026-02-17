@@ -18,7 +18,7 @@
 		},
 		openingHours: 'Mo-Fr 07:00-18:00',
 		description:
-			'Uw droomtuin begint hier. Exclusief tuinontwerp en aanleg met oog voor detail en vakmanschap in de regio Noord-Holland.'
+			'Tuinontwerp, aanleg en onderhoud met oog voor detail en vakmanschap in de regio Noord-Holland.'
 	};
 </script>
 

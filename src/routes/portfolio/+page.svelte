@@ -7,7 +7,7 @@
 
 <SEOHead
 	title="Portfolio - VDV Tuinen"
-	description="Bekijk onze gerealiseerde tuinprojecten. Van luxe groene tuinen tot vlonders en schuttingen, laat u inspireren door ons werk."
+	description="Bekijk onze gerealiseerde tuinprojecten. Van complete tuinen tot vlonders en schuttingen — een greep uit ons werk."
 />
 
 <!-- Hero header -->
@@ -18,7 +18,7 @@
 		</div>
 		<h1 class="font-heading text-4xl font-bold text-primary md:text-5xl">Onze Projecten</h1>
 		<p class="mx-auto mt-4 max-w-2xl text-primary/70">
-			Elke tuin vertelt een verhaal. Ontdek hoe wij dromen omtoveren tot groene werkelijkheid.
+			Een greep uit ons werk. Van tuinaanleg tot vlonders en schuttingen.
 		</p>
 	</div>
 </section>

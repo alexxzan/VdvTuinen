@@ -6,14 +6,14 @@
 </script>
 
 <SEOHead
-	title="Onze Diensten - VDV Tuinen"
+	title="Onze diensten - VDV Tuinen"
 	description="VDV Tuinen biedt tuinontwerp, tuinaanleg, tuinonderhoud, vlonders, schuttingen en opritten. Ontdek ons complete pakket aan tuindiensten."
 />
 
 <section class="bg-offwhite pt-32 pb-24">
 	<div class="mx-auto max-w-7xl px-6">
 		<div class="text-center">
-			<h1 class="font-heading text-4xl font-bold text-primary md:text-5xl">Onze Diensten</h1>
+			<h1 class="font-heading text-4xl font-bold text-primary md:text-5xl">Onze diensten</h1>
 			<p class="mx-auto mt-4 max-w-2xl text-primary/70">
 				Van ontwerp tot onderhoud, wij bieden een compleet pakket aan tuindiensten om uw
 				buitenruimte tot leven te brengen.
