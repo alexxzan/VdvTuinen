@@ -1,7 +1,5 @@
 FROM node:22-slim AS builder
 
-RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
-
 WORKDIR /app
 
 COPY package*.json ./
@@ -10,14 +8,10 @@ RUN npm ci --frozen-lockfile
 
 COPY . .
 
-RUN npm run prepare
-
-RUN npm run build
+RUN npm run prepare && npm run build
 
 # Production stage
 FROM node:22-slim AS production
-
-RUN apt-get update && apt-get install -y curl procps && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 
@@ -34,9 +28,12 @@ RUN addgroup --system --gid 1001 nodejs && \
 
 USER sveltekit
 
+ENV NODE_ENV=production
+ENV PORT=3000
+
 EXPOSE 3000
 
 HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
-  CMD curl -f --connect-timeout 5 --max-time 10 http://localhost:3000/ || exit 1
+  CMD node -e "fetch('http://localhost:3000/').then(r => { if (!r.ok) process.exit(1) }).catch(() => process.exit(1))"
 
-CMD ["sh", "-c", "node build || (echo 'Application failed to start' && exit 1)"]
+CMD ["node", "build"]

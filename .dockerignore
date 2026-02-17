@@ -3,9 +3,8 @@ npm-debug.log*
 
 .svelte-kit
 
-.env.example
-.env.local
-.env.*.local
+.env
+.env.*
 
 .git
 .gitignore

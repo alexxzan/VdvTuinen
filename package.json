@@ -26,7 +26,6 @@
 	},
 	"dependencies": {
 		"@fontsource-variable/montserrat": "^5.2.8",
-		"@fontsource-variable/playfair-display": "^5.2.8",
 		"@kontent-ai/delivery-sdk": "^16.4.1",
 		"@kontent-ai/management-sdk": "^8.3.1",
 		"@kontent-ai/rich-text-resolver": "^3.0.2",
