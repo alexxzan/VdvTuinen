@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../app.css';
+	import TopBar from '$lib/components/layout/TopBar.svelte';
 	import Header from '$lib/components/layout/Header.svelte';
 	import Footer from '$lib/components/layout/Footer.svelte';
 
@@ -13,6 +14,7 @@
 	Ga naar inhoud
 </a>
 
+<TopBar />
 <Header />
 
 <main id="main-content">

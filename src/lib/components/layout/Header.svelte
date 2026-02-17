@@ -6,7 +6,7 @@
 	let mobileMenuOpen = $state(false);
 </script>
 
-<header class="fixed top-0 left-0 right-0 z-50 bg-offwhite/95 backdrop-blur-sm">
+<header class="fixed top-10 left-0 right-0 z-50 bg-offwhite/95 backdrop-blur-sm">
 	<div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
 		<a href="/" class="flex items-center gap-2">
 			<img
