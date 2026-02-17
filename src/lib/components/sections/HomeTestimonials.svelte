@@ -7,7 +7,7 @@
 <section aria-label="Testimonials" class="bg-offwhite py-24">
 	<div class="mx-auto max-w-7xl px-6">
 		<div class="text-center">
-			<h2 class="font-heading text-4xl font-bold text-primary">Wat klanten zeggen</h2>
+			<h2 class="font-heading text-4xl font-bold text-primary">Wat klanten zeggen over ons</h2>
 			<p class="mx-auto mt-4 max-w-2xl text-primary/70">
 				Lees de ervaringen van onze tevreden klanten.
 			</p>

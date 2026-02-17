@@ -9,7 +9,7 @@
 </script>
 
 <SEOHead
-	title="VDV Tuinen - Uw tuin in goede handen"
+	title="VDV Tuinen - Hovenier voor tuinontwerp, aanleg en onderhoud"
 	description="VDV Tuinen: uw specialist in tuinontwerp, tuinaanleg en tuinonderhoud in de regio Noord-Holland. Vakkundig, betrouwbaar en creatief."
 />
 <JsonLd />

@@ -9,7 +9,8 @@ export const siteConfig = {
 };
 
 export const heroContent = {
-	title: 'Uw tuin in goede handen',
+	tagline: 'Uw tuin in goede handen',
+	title: 'Hovenier voor tuinontwerp, aanleg en onderhoud',
 	subtitle:
 		'Tuinontwerp, aanleg en onderhoud met oog voor detail. Wij bouwen buitenruimtes die jarenlang meegaan.',
 	cta: 'Contact opnemen',

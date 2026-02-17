@@ -15,9 +15,9 @@
 <section aria-label="Diensten" class="bg-offwhite py-24">
 	<div class="mx-auto max-w-7xl px-6">
 		<div class="text-center">
-			<h2 class="font-heading text-4xl font-bold text-primary">Onze diensten</h2>
+			<h2 class="font-heading text-4xl font-bold text-primary">Onze hoveniersdiensten</h2>
 			<p class="mx-auto mt-4 max-w-2xl text-primary/70">
-				Van ontwerp tot onderhoud, wij bieden een compleet pakket aan tuindiensten.
+				Van tuinontwerp tot onderhoud — wij bieden een compleet pakket hoveniersdiensten in Noord-Holland.
 			</p>
 		</div>
 

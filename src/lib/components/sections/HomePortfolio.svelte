@@ -6,7 +6,7 @@
 <section aria-label="Portfolio" class="bg-white py-24">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<header class="mb-16 text-center">
-			<h2 class="font-heading text-4xl font-bold text-primary">Gerealiseerde projecten</h2>
+			<h2 class="font-heading text-4xl font-bold text-primary">Gerealiseerde tuinprojecten</h2>
 			<p class="mx-auto mt-4 max-w-2xl text-primary/70">
 				Een selectie van onze meest recente projecten
 			</p>

@@ -4,9 +4,9 @@
 
 <section aria-label="Contact" class="bg-primary py-24">
 	<div class="mx-auto max-w-3xl px-6 text-center">
-		<h2 class="font-heading text-4xl font-bold text-offwhite">Klaar om te beginnen?</h2>
+		<h2 class="font-heading text-4xl font-bold text-offwhite">Klaar voor uw nieuwe tuin?</h2>
 		<p class="mt-4 text-lg text-gold">
-			Neem contact met ons op voor een vrijblijvend adviesgesprek en ontdek wat wij voor uw tuin kunnen betekenen.
+			Neem contact op voor een vrijblijvend adviesgesprek. Wij vertellen u graag wat onze hoveniers voor uw tuin kunnen betekenen.
 		</p>
 		<a
 			href="/contact"

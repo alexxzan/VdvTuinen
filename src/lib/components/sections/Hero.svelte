@@ -16,6 +16,9 @@
 
 	<div class="relative z-10 mx-auto w-full max-w-7xl px-6 pt-20">
 		<div class="max-w-2xl">
+			<span class="mb-3 inline-block text-sm font-medium tracking-wide text-gold/90">
+				{heroContent.tagline}
+			</span>
 			<h1 class="font-heading text-5xl font-bold leading-tight text-offwhite md:text-6xl lg:text-7xl">
 				{heroContent.title}
 			</h1>
