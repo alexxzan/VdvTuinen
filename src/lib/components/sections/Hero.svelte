@@ -5,7 +5,9 @@
 
 <section class="relative flex min-h-screen items-center">
 	<img
-		src={heroContent.image}
+		srcset="/images/hero-homepage-1024w.jpg 1024w, /images/hero-homepage-1920w.jpg 1920w"
+		sizes="100vw"
+		src="/images/hero-homepage-1920w.jpg"
 		alt="Tuin met vijver en natuursteen"
 		class="absolute inset-0 h-full w-full object-cover"
 		loading="eager"

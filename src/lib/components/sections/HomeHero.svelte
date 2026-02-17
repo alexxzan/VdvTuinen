@@ -4,19 +4,14 @@
 </script>
 
 <section aria-label="Hero" class="relative flex min-h-screen items-center">
-	<picture>
-		<source
-			srcset="/images/hero-homepage-1024w.webp 1024w, /images/hero-homepage-1920w.webp 1920w, /images/hero-homepage-2560w.webp 2560w"
-			sizes="100vw"
-			type="image/webp"
-		/>
-		<img
-			src="/images/hero-homepage.jpg"
-			alt="Tuin met vijver en natuursteen"
-			class="absolute inset-0 h-full w-full object-cover"
-			loading="eager"
-		/>
-	</picture>
+	<img
+		srcset="/images/hero-homepage-1024w.jpg 1024w, /images/hero-homepage-1920w.jpg 1920w"
+		sizes="100vw"
+		src="/images/hero-homepage-1920w.jpg"
+		alt="Tuin met vijver en natuursteen"
+		class="absolute inset-0 h-full w-full object-cover"
+		loading="eager"
+	/>
 	<div class="absolute inset-0 bg-gradient-to-r from-primary/60 to-primary/30"></div>
 
 	<div class="relative z-10 mx-auto w-full max-w-7xl px-6 pt-20">
